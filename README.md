@@ -1,6 +1,9 @@
 Namecheap API for PHP
 ===========
 
+THIS IS STILL IN VERY BETA DO NOT USE YET!
+===========
+
 namecheap-php is a Namecheap API client in PHP.
 API itself is documented at <https://www.namecheap.com/support/api/intro/>
 
