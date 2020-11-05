@@ -1,0 +1,19 @@
+{
+    "name": "reashetyr/namecheap-php",
+    "description": "Easy access to the Namecheap xml api using PHP",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "reashetyrr",
+            "email": "6582364+reashetyrr@users.noreply.github.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "reashetyr\\NameCheap\\": "src/"
+        }
+    }
+}
