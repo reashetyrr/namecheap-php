@@ -10,7 +10,9 @@
         }
     ],
     "minimum-stability": "dev",
-    "require": {},
+    "require": {
+        "php": ">=7"
+    },
     "autoload": {
         "psr-4": {
             "reashetyr\\NameCheap\\": "src/"
