@@ -1,5 +1,5 @@
 {
-    "name": "reashetyr/namecheap-php",
+    "name": "reashetyr/namecheap",
     "description": "Easy access to the Namecheap xml api using PHP",
     "type": "library",
     "license": "MIT",
