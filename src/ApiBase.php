@@ -94,10 +94,9 @@ class ApiBase
         $apiResponse->setJson($response['json']);
         $apiResponse->setXml($xml);
 
-
-        if ($xml['Status'] === 'Error') {
-            $error = $xml["Errors"]["Error"];
-            throw new \reashetyr\NameCheap\ApiError($error['Number'], $error["text"]);
+        if ((string) $xml['Status'] === 'ERROR') {
+            $error = (string) $xml->Errors->{'Error'};
+            throw new \reashetyr\NameCheap\ApiError($error, 400);
         }
         return $apiResponse;
     }
