@@ -2,7 +2,6 @@
 
 namespace reashetyr\NameCheap\routes;
 
-use reashetyr\NameCheap\ApiError;
 use reashetyr\NameCheap\ApiResult;
 use reashetyr\NameCheap\NameCheap;
 use reashetyr\NameCheap\routes\domains\Dns;
