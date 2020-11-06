@@ -18,9 +18,9 @@ class NameCheap extends ApiBase
     private function setupBase(): void
     {
         $this->domains = new routes\Domains($this);
-        $this->ssl = new routes\Ssl($this);
-        $this->users = new routes\Users($this);
-        $this->whoisguard = new routes\Whoisguard($this);
+//        $this->ssl = new routes\Ssl($this);
+//        $this->users = new routes\Users($this);
+//        $this->whoisguard = new routes\Whoisguard($this);
     }
 
     public function sandboxMode($sandbox = true): void
