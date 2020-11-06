@@ -101,7 +101,7 @@ class ApiBase
         return $apiResponse;
     }
 
-    public static function _list_of_objects_to_numbered_payload($objects) {
+    public function _list_of_objects_to_numbered_payload($objects) {
         $definite_payload = [];
         for ($i = 0; $i < count($objects); $i++) {
             $key_num = $i + 1;
